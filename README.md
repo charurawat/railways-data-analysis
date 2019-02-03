@@ -5,7 +5,9 @@
 
 #### Description
 The goal is to  build a small data pipeline to process the FRA data on rail equipment accidents. The pipeline will perform the functions of ingesting, cleaning, and visualizing the data. The pipeline
-should be able handle new data as it becomes available on the FRA site. Cleaning the data should incorporate the following-
+should be able handle new data as it becomes available on the FRA site. The code involves connecting to a SQLlite db "fra.db" where all the data is stored.
+
+Cleaning the data should incorporate the following-
 
 1. Remove duplicates.
 2. Join narratives.
